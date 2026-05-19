@@ -9,7 +9,7 @@ pub enum LedgerError {
     },
 
     SelfTransfer(u64),
-    InvalidAmount(u64),
+    InvalidAmount(i64),
     InvalidSignature(u64),
     InvalidNonce {
         account_id: u64,
